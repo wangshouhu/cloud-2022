@@ -1,0 +1,7 @@
+server:
+  port: 9001
+
+#访问豪猪图形化界面报错：If it should be allowed add it to hystrix.dashboard.proxyStreamAllowList.需添加如下配置
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
